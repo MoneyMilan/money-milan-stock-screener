@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Milan - Stock Screener</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <div class="market-indices">
+            <div class="index-card">
+                <div class="index-label">Nifty 50</div>
+                <div class="index-value">₹26,304.05</div>
+                <div class="index-change positive">▲ 163.80 (0.63%)</div>
+            </div>
+            <div class="index-card">
+                <div class="index-label">Bank Nifty</div>
+                <div class="index-value">₹60,108.80</div>
+                <div class="index-change positive">▲ 401.25 (0.67%)</div>
+            </div>
+            <div class="index-card">
+                <div class="index-label">Sensex</div>
+                <div class="index-value">₹85,644.20</div>
+                <div class="index-change positive">▲ 455.99 (0.53%)</div>
+            </div>
+            <div class="index-card">
+                <div class="index-label">Dow Jones</div>
+                <div class="index-value">$48,063.29</div>
+                <div class="index-change negative">▼ 302.77 (-0.63%)</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="hero">
+            <h1>Money Milan Stock Screener</h1>
+            <p>Leveraging Advanced AI to provide comprehensive technical and fundamental financial insights.</p>
+            <div class="search-bar">
+                <input type="text" placeholder="Search for a company (e.g. Reliance, Apple, Tata Motors...)" id="searchInput">
+                <button id="searchBtn">🔍</button>
+            </div>
+            <div class="divider">— OR —</div>
+            <div class="upload-area" id="uploadArea">
+                <div class="upload-icon">☁️</div>
+                <p>Drag & Drop, Paste (Ctrl+V), or <a href="#" id="uploadLink">Click to Upload</a></p>
+                <p class="upload-hint">Supports Screenshots from TradingView, Zerodha, etc.</p>
+            </div>
+        </div>
+    </div>
+
+    <input type="file" id="fileInput" style="display:none" accept="image/*">
+    <script src="script.js"></script>
+</body>
+</html>
