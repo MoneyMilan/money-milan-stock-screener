@@ -1,0 +1,6 @@
+{
+  "name": "money-milan-stock-screener-frontend",
+  "version": "1.0.0",
+  "description": "React Frontend for MoneyMilan Stock Screener",
+  "private": true
+}
